@@ -30,12 +30,13 @@ h1{
 .font--one{
     font-family:  'Red Hat Display', sans-serif;
     font-weight: 500;
-    font-size: 1.6rem;
+   
     text-align: center;
 }
 
 p{
     color: var(--desaturated-blue);
+    font-size: 1.6rem;
 }
 
 .block{
@@ -45,7 +46,7 @@ p{
 
 .container{
     width: 320px;
-    height: 80vh;
+    height: 510px;
     background: #fff;
     border-radius: 20px;
 }
@@ -63,23 +64,55 @@ p{
 .price{
     display: grid;
     grid-template-columns: 0.7fr 1fr 1fr;
-    border-radius: 13px 13px 13px 13px;
+    border-radius: 13px;
     background: var(--very-pale-blue);
     padding: 2rem;
-
+    margin-bottom: 30px;
+    font-size: 1.4rem;
 }
 
 .link{
     color: var(--bright-blue);
     margin-top: 1rem;
     margin-left: 0;
-
+    font-weight: 700;
 }
+
 
 .price--annual{
     margin-top: 0.8rem;
+    color: var(--desaturated-blue);
 }
 
 .bold{
+    font-weight: 900;
+}
+
+
+button{
+    width: 100%;
+    height: 4rem;
+    border: 0;
+    border-radius: 13px;
+    font-size: 1.6rem;
+    margin-top: 1rem;
     font-weight: 700;
+    cursor: pointer;
+}
+
+.btn--primary{
+    background: var(--bright-blue);
+    color: #fff;
+}
+
+.btn--secondary{
+    background: #fff;
+    color: var(--desaturated-blue);
+}
+
+@media screen and (min-width: 1440px) {
+    .container{
+        width: 400px;
+        height: 600px;
+    }
 }
