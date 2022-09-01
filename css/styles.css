@@ -10,13 +10,16 @@ html{
     font-size: 62.5%;
 }
 
-body{
-  background: var(--blue); 
-  height: 100vh; 
-  display: flex;
- justify-content: center;
- align-content: center;
 
+body {
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-color: var(--blue);
+    height: 100vh;
+    display: flex;
+    background-size: contain;
+    justify-content: center;
+    background-repeat: no-repeat;
+    align-content: center;
 }
 
 h1{
