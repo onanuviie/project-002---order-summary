@@ -1,0 +1,34 @@
+:root{
+    --blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+}
+
+body{
+  background: var(--blue); 
+  height: 100vh; 
+  display: flex;
+justify-content: center;
+align-content: center;
+
+}
+
+.block{
+    background: var(--blue);
+    align-self: center;
+}
+
+.container{
+    width: 340px;
+    height: 80vh;
+    background: var(--very-pale-blue);
+    border-radius: 20px;
+}
+
+.hero{
+    width: 100%;
+    height: 30%;
+    border-radius: 20px 20px 0 0;
+}
